@@ -1,4 +1,4 @@
-package com.joelespinal.crud.dao;
+package com.joelespinal.crud.repositories;
 
 
 
@@ -9,7 +9,7 @@ import org.springframework.data.repository.CrudRepository;
 import com.joelespinal.crud.models.Contact;
 
 @Transactional
-public interface ContactDao extends  CrudRepository<Contact, Long>{
+public interface ContactRepository extends  CrudRepository<Contact, Long>{
 	
 	public Contact getContactById(Long id);
 }
