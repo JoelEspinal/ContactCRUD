@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 @EntityScan("com.joelespinal.crud.models")
-@EnableJpaRepositories("com.joelespinal.crud.dao")
+@EnableJpaRepositories("com.joelespinal.crud.repositories")
 @SpringBootApplication
 public class Application {
 
